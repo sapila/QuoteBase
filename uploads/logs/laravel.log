@@ -1,0 +1,8 @@
+[2017-03-19 16:32:23] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: There are no commands defined in the "storage" namespace. in /home/pc/workspace/quotebase/vendor/symfony/console/Application.php:499
+Stack trace:
+#0 /home/pc/workspace/quotebase/vendor/symfony/console/Application.php(531): Symfony\Component\Console\Application->findNamespace('storage')
+#1 /home/pc/workspace/quotebase/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->find('storage:link')
+#2 /home/pc/workspace/quotebase/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/pc/workspace/quotebase/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(123): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/pc/workspace/quotebase/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  

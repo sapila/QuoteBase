@@ -1,0 +1,95 @@
+.panel-heading-custom {
+    background-color: #444444;
+}
+
+.gray-background {
+    background: #444444; /* For browsers that do not support gradients */
+}
+
+.theme-header {
+    background: #444444;
+    border-bottom: #ffA500 4px solid;
+    color: #ffA500;
+}
+
+.panel-heading {
+    background: #444444 !important;
+    border-bottom: #ffA500 4px solid !important;
+    color: #ffA500 !important;
+}
+
+body {
+    background: #222222 !important;
+}
+
+/*
+Change the glow color for form-control
+ */
+.form-control:focus{border-color: #ffA500;  box-shadow: #ffA500; -webkit-box-shadow: #ffA500;}
+.has-error .form-control:focus{box-shadow: none; -webkit-box-shadow: none;}
+
+/**
+Change the placeholder color
+ */
+.orange-placeholder {
+
+}
+.orange-placeholder::-webkit-input-placeholder {
+    color: #ffA500;
+}
+
+.orange-placeholder:-moz-placeholder { /* Firefox 18- */
+    color: #ffA500;
+}
+
+.orange-placeholder::-moz-placeholder {  /* Firefox 19+ */
+    color: #ffA500;
+}
+
+.orange-placeholder:-ms-input-placeholder {
+    color: #ffA500;
+}
+
+/**
+ * hr Styles
+ */
+
+.orange-hr {
+    border-top: 1px solid #ffA500;
+}
+
+/**
+ * Single Quote Styles
+ */
+.image-frame {
+  background-color: #444444;
+  padding: 10px;
+  margin-top: 10px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.info-frame {
+    background-color: #444444;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #000000;
+    border: 2px solid #000000;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.sidebar-item-value {
+    margin-left:40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-item {
+    background-color: #ffA500;
+    border: 2px solid #ff4500;
+    padding: 5px;
+    font-weight: bold;
+}
